@@ -7,7 +7,7 @@ const Navegador = () => {
     <div>
         <Navbar expand="lg" className='bg-body-tertiary'>
           <Container>
-          <Navbar.Brand href="/Inicio">
+          <Navbar.Brand href="/">
             <img
               alt=""
               src={Logoimg}
@@ -20,7 +20,7 @@ const Navegador = () => {
               <Navbar.Toggle aria-controls='basic.navbar-nav'/>
                 <Navbar.Collapse id='basic-navbar-nav'>
                   <Nav className='me-auto'>         
-              <Nav.Link href="/Inicio">Inicio</Nav.Link>
+              <Nav.Link href="/">Inicio</Nav.Link>
               <Nav.Link href="/Galeria">Galeria</Nav.Link>
               <Nav.Link href="/Form">Tu opinion</Nav.Link>
               <Nav.Link href="/Acercade">Acerca del programador</Nav.Link>

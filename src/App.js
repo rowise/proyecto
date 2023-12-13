@@ -17,19 +17,18 @@ import Android from './Paginas/Android';
 function App() {
   return (
     <div>
+      <Navegador/>
       <Routes>
-        <Route path='/' element={<Navegador/>}>
-        <Route path='/Inicio' element={<Inicio/>}></Route>
-        <Route path='/Microsoft' element={<Microsoft/>}></Route>
-        <Route path='/MacOS' element={<MacOS/>}></Route>
-        <Route path='/Linux' element={<Linux/>}></Route>
-        <Route path='/Acercade' element={<Acercade/>}></Route>
-        <Route path='/Brave' element={<Brave/>}></Route>
-        <Route path='/Form' element={<Form/>}></Route>
-        <Route path='/Galeria' element={<Galeria/>}></Route>
-        <Route path='/Google' element={<Google/>}></Route>
-        <Route path='/Android' element={<Android/>}></Route>
-        </Route>
+        <Route path='/' element={<Inicio/>}/>
+        <Route path='/Microsoft' element={<Microsoft/>}/>
+        <Route path='/MacOS' element={<MacOS/>}/>
+        <Route path='/Linux' element={<Linux/>}/>
+        <Route path='/Acercade' element={<Acercade/>}/>
+        <Route path='/Brave' element={<Brave/>}/>
+        <Route path='/Form' element={<Form/>}/>
+        <Route path='/Galeria' element={<Galeria/>}/>
+        <Route path='/Google' element={<Google/>}/>
+        <Route path='/Android' element={<Android/>}/>
       </Routes>
     </div>
   );
